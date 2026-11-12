@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080a0f">
+
+    <title>ZIRAZ DIGITAL | Tecnología que impulsa tu negocio</title>
+
+    <meta name="description" content="En ZIRAZ DIGITAL creamos páginas web, tiendas online y soluciones digitales para impulsar tu negocio.">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="navbar">
+
+        <a href="#inicio" class="logo">
+            <img src="{{ url_for('static', filename='images/logo-z.png') }}" alt="ZIRAZ DIGITAL">
+        </a>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a href="#contacto" class="nav-button">Hablemos</a>
+
+    </header>
+
+    <main>
+
+        <!-- PORTADA PRINCIPAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">AGENCIA DIGITAL & TECNOLOGÍA</p>
+
+                <h1>
+                    Impulsamos tu negocio
+                    <span>al mundo digital.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Creamos experiencias digitales que impulsan negocios,
+                    conectan personas y generan nuevas oportunidades.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#servicios" class="primary-button">
+                        Explorar servicios
+                    </a>
+
+                    <a href="#contacto" class="secondary-button">
+                        Contáctanos
+                    </a>
+
+
+                </div>
+
+            </div>
+
+            
+<div class="hero-decoration">
+
+    <div class="hero-visual">
+
+        <img
+            src="{{ url_for('static', filename='images/portada-ziraz.png') }}"
+            alt="Portada tecnológica ZIRAZ DIGITAL"
+            class="hero-image"
+        >
+
+    </div>
+
+</div>
+
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="services" id="servicios">
+
+            <p class="eyebrow">LO QUE HACEMOS</p>
+
+            <h2>
+                Soluciones para llevar tu negocio al siguiente nivel.
+            </h2>
+
+            <div class="service-grid">
+
+                <article class="service-card">
+                    <span>01 / WEB</span>
+                    <div class="service-icon">⌘</div>
+                    <h3>Desarrollo Web</h3>
+                    <p>
+                        Diseñamos y desarrollamos páginas web modernas,
+                        rápidas y adaptadas a cada negocio.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <span>02 / E-COMMERCE</span>
+                    <div class="service-icon">◇</div>
+                    <h3>Tiendas Online</h3>
+                    <p>
+                        Creamos tiendas virtuales para mostrar productos,
+                        gestionar pedidos y potenciar tus ventas.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <span>03 / DESIGN</span>
+                    <div class="service-icon">✧</div>
+                    <h3>Diseño Digital</h3>
+                    <p>
+                        Desarrollamos identidades visuales y contenido
+                        que ayudan a destacar tu marca.
+                    </p>
+                </article>
+
+                <article class="service-card">
+                    <span>04 / SUPPORT</span>
+                    <div class="service-icon">⌘</div>
+                    <h3>Mantenimiento Web</h3>
+                    <p>
+                        Actualizamos, optimizamos y brindamos soporte
+                        para mantener tu web funcionando correctamente.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- SOBRE NOSOTROS -->
+        <section class="about" id="nosotros">
+
+            <div class="about-header">
+
+                <p class="eyebrow">CONOCE ZIRAZ DIGITAL</p>
+
+                <h2>
+                    Innovación digital para construir
+                    <span>el futuro de tu negocio.</span>
+                </h2>
+
+                <p class="about-description">
+                    Somos una agencia digital enfocada en desarrollar
+                    soluciones tecnológicas, creativas y funcionales
+                    para empresas y emprendedores que buscan crecer
+                    en el mundo digital.
+                </p>
+
+            </div>
+
+            <div class="about-grid">
+
+                <article class="about-card">
+                    <div class="about-number">01</div>
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        Impulsar el crecimiento de nuestros clientes
+                        mediante soluciones digitales innovadoras,
+                        accesibles y de calidad.
+                    </p>
+                </article>
+
+                <article class="about-card">
+                    <div class="about-number">02</div>
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        Ser una agencia digital reconocida por su
+                        creatividad, innovación y compromiso con
+                        la transformación tecnológica.
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="values">
+
+                <p class="eyebrow">NUESTROS PRINCIPIOS</p>
+
+                <div class="values-grid">
+
+                    <div class="value-item">
+                        <span>✧</span>
+                        <h3>Innovación</h3>
+                        <p>Buscamos nuevas formas de crear y mejorar.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <span>◇</span>
+                        <h3>Compromiso</h3>
+                        <p>Trabajamos con responsabilidad en cada proyecto.</p>
+                    </div>
+
+                    <div class="value-item">
+                        <span>⌘</span>
+                        <h3>Calidad</h3>
+                        <p>Cuidamos cada detalle de nuestras soluciones.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contact" id="contacto">
+
+            <p class="eyebrow">HABLEMOS DE TU PROYECTO</p>
+
+            <h2>Tu próxima idea puede comenzar aquí.</h2>
+
+            <p class="contact-description">
+                Cuéntanos qué tienes en mente. Estamos listos para ayudarte
+                a llevar tu negocio al siguiente nivel.
+            </p>
+
+            <div class="contact-buttons">
+
+                <a href="mailto:jonathanalexanderlopezsaavedra@gmail.com"
+                   class="primary-button">
+                    ✉ Escríbenos
+                </a>
+
+                <a href="https://wa.me/51987827776?text=ZIRAZ%20DIGITAL%0A%0A%C2%A1Hola!%20Gracias%20por%20contactar%20con%20ZIRAZ%20DIGITAL.%0A%0ACu%C3%A9ntanos%20qu%C3%A9%20proyecto%20tienes%20en%20mente.%20Estamos%20listos%20para%20ayudarte%20a%20hacerlo%20realidad."
+                   class="whatsapp-button"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    ☎ WhatsApp
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>© 2026 ZIRAZ DIGITAL. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
