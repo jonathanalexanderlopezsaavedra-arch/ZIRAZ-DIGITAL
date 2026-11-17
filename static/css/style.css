@@ -218,6 +218,10 @@ nav a:hover {
     color: var(--text);
 }
 
+.services .portfolio-description {
+    margin-bottom: 20px;
+}
+
 .service-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
