@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html lang="es">
 
@@ -28,6 +28,7 @@
         <nav>
             <a href="#inicio">Inicio</a>
             <a href="#servicios">Servicios</a>
+            <a href="#portafolio">Portafolio</a>
             <a href="#nosotros">Nosotros</a>
             <a href="#contacto">Contacto</a>
         </nav>
@@ -142,6 +143,127 @@
 
         </section>
 
+        <!-- PORTAFOLIO -->
+        <section class="portfolio" id="portafolio">
+
+            <div class="portfolio-header">
+                <p class="eyebrow">NUESTRO TRABAJO</p>
+                <h2>Proyectos que convierten ideas en <span>experiencias digitales.</span></h2>
+                <p class="portfolio-description">
+                    Desarrollamos soluciones digitales reales para impulsar
+                    negocios, marcas y nuevas oportunidades.
+                </p>
+            </div>
+
+            <div class="portfolio-grid">
+
+                <article class="project-card">
+                    <div class="project-preview project-image">
+                        <img src="{{ url_for('static', filename='images/auren-captura.png') }}"
+                             alt="Captura de la tienda online AUREN">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">01 / TIENDA ONLINE</span>
+                        <h3>AUREN</h3>
+                        <p>
+                            Tienda online con identidad visual elegante
+                            y una experiencia digital enfocada en productos
+                            y compras.
+                        </p>
+                        <a href="https://auren-e79p.onrender.com/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            VISITAR PROYECTO ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview project-image">
+                        <img src="{{ url_for('static', filename='images/neworizon-captura.png') }}"
+                             alt="Captura del sitio web NEW ORIZON LOGISTICS">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">02 / WEB EMPRESARIAL</span>
+                        <h3>NEW ORIZON LOGISTICS</h3>
+                        <p>
+                            Sitio web corporativo para una empresa de logística
+                            internacional, con servicios y presencia digital.
+                        </p>
+                        <a href="https://www.neworizonlogistics.com/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            VISITAR PROYECTO ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview project-admin">
+                        <div class="admin-demo">
+                            <aside class="admin-demo-sidebar">
+                                <div class="admin-demo-logo">Z</div>
+                                <span class="admin-side-active">▦</span>
+                                <span>▤</span>
+                                <span>◷</span>
+                                <span>⚙</span>
+                            </aside>
+
+                            <div class="admin-demo-main">
+                                <div class="admin-demo-top">
+                                    <div>
+                                        <small>OVERVIEW</small>
+                                        <strong>Dashboard</strong>
+                                    </div>
+                                    <span class="admin-demo-avatar">Z</span>
+                                </div>
+
+                                <div class="admin-demo-stats">
+                                    <div><small>Mensajes</small><strong>128</strong><i>+12.8%</i></div>
+                                    <div><small>Solicitudes</small><strong>46</strong><i>+8.2%</i></div>
+                                    <div><small>Atendidos</small><strong>92</strong><i>+16.4%</i></div>
+                                </div>
+
+                                <div class="admin-demo-chart">
+                                    <div class="admin-chart-heading">
+                                        <strong>Actividad</strong>
+                                        <small>Últimos 7 días</small>
+                                    </div>
+                                    <div class="admin-chart-bars">
+                                        <span style="height:35%"></span>
+                                        <span style="height:58%"></span>
+                                        <span style="height:45%"></span>
+                                        <span style="height:78%"></span>
+                                        <span style="height:62%"></span>
+                                        <span style="height:92%"></span>
+                                        <span style="height:70%"></span>
+                                    </div>
+                                </div>
+
+                                <div class="admin-demo-bottom">
+                                    <span>● Mensajes recientes</span>
+                                    <span>● En revisión</span>
+                                    <span>● Atendidos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">03 / DESARROLLO WEB</span>
+                        <h3>PANEL ADMINISTRATIVO</h3>
+                        <p>
+                            Sistema de gestión de mensajes, notificaciones
+                            y seguimiento de solicitudes desde un panel privado.
+                        </p>
+                        <span class="project-private">
+                            SISTEMA PRIVADO · DEMOSTRACIÓN VISUAL
+                        </span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
         <!-- SOBRE NOSOTROS -->
         <section class="about" id="nosotros">
 
